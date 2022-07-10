@@ -1,1 +1,10 @@
 # HRMF
+num_heads           :12
+embedding_dim       :200
+hidden_dim          :768
+mix_lambda          :0.9
+mu                  :0.5
+dropout             :0.5
+warmup_ratio        :0.1
+weight_decay        :0.02
+adam_epsilon        :1e-08
