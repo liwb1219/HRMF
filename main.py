@@ -92,7 +92,6 @@ def main():
                 scheduler.step()  # 跟新learning rate
 
         evaluate(valid_loader, model, criterion, epoch)
-        evaluate(test_loader, model, criterion, epoch)
 
 
 if __name__ == '__main__':
