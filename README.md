@@ -1,6 +1,6 @@
 # Requirement
 
-pytorch 1.9
+pytorch 1.9<br>
 pip install transformers
 pip install gensim==3.8.3
 pip install pkuseg
