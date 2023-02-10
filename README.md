@@ -21,11 +21,13 @@ python main.py
 3.部分数据集中有隐藏字符，模型没有处理start==end的情况，需自行删除（当遇到start==end的情况，会报错）<br>
 
 # Citation
-`@inproceedings{li2022exploiting,<br>
-  title={Exploiting Word Semantics to Enrich Character Representations of Chinese Pre-trained Models},<br>
-  author={Li, Wenbiao and Sun, Rui and Wu, Yunfang},<br>
-  booktitle={Natural Language Processing and Chinese Computing: 11th CCF International Conference, NLPCC 2022, Guilin, China, September 24--25, 2022, Proceedings, Part I},<br>
-  pages={3--15},<br>
-  year={2022},<br>
-  organization={Springer}<br>
-}`
+```
+@inproceedings{li2022exploiting,
+  title={Exploiting Word Semantics to Enrich Character Representations of Chinese Pre-trained Models},
+  author={Li, Wenbiao and Sun, Rui and Wu, Yunfang},
+  booktitle={Natural Language Processing and Chinese Computing: 11th CCF International Conference, NLPCC 2022, Guilin, China, September 24--25, 2022, Proceedings, Part I},
+  pages={3--15},
+  year={2022},
+  organization={Springer}
+}
+```
