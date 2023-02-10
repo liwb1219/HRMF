@@ -1,10 +1,7 @@
-# HRMF
-num_heads           :12
-embedding_dim       :200
-hidden_dim          :768
-mix_lambda          :0.9
-mu                  :0.5
-dropout             :0.5
-warmup_ratio        :0.1
-weight_decay        :0.02
-adam_epsilon        :1e-08
+# Requirement
+pytorch 1.9
+pip install transformers
+pip install gensim==3.8.3
+pip install pkuseg
+pip install LAC
+pip install snownlp
